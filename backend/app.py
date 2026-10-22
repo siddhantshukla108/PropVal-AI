@@ -107,6 +107,22 @@ def calculate_investment_metrics(price_usd):
     }
 
 
+@app.route("/", methods=["GET", "HEAD"])
+def root_index():
+    """Root endpoint for Render health checks and browser visitors"""
+    return jsonify({
+        "status": "online",
+        "service": "PropVal AI Real Estate Valuation & Investment Engine API",
+        "version": "2.0.0",
+        "endpoints": {
+            "health": "/api/health",
+            "models": "/api/models",
+            "presets": "/api/presets",
+            "predict": "/api/predict"
+        }
+    })
+
+
 @app.route("/api/health", methods=["GET"])
 def health_check():
     """Health check endpoint used by Vercel frontend to wake up Render and monitor backend status"""
