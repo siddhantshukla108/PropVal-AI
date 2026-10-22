@@ -39,9 +39,6 @@ export default function Navbar({ currency, setCurrency, onOpenInfoModal }) {
               <span className="font-extrabold text-lg tracking-tight bg-gradient-to-r from-white via-slate-100 to-slate-300 bg-clip-text text-transparent">
                 PropVal <span className="text-brand-400 font-black">AI</span>
               </span>
-              <span className="hidden sm:inline-block px-2 py-0.5 text-[10px] uppercase font-bold tracking-wider rounded-full bg-brand-500/10 text-brand-400 border border-brand-500/20">
-                v2.0 Dual Engine
-              </span>
             </div>
             <p className="text-xs text-slate-400 hidden sm:block">
               UCER Prayagraj • CSE Mini Project
