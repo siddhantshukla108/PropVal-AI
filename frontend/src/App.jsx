@@ -346,10 +346,10 @@ export default function App() {
       {/* Footer */}
       <footer className="border-t border-slate-800/80 bg-slate-950/80 px-4 py-6 mt-12 text-center text-xs text-slate-500 space-y-1">
         <p>
-          House Price Prediction System • Summer Internship, Innovation & Incubation Hub, MNNIT Foundation (2026)
+          House Price Prediction System • UCER, Prayagraj (2026)
         </p>
         <p className="text-[11px] text-slate-600">
-          Guided by <strong>Mr. Subhash Chaganti</strong> • Built by Shubham Mishra, Sudhanshu P. Singh, Suyash Srivastav, Siddhant Shukla
+          Built by Shubham Mishra, Siddhant Shukla, Sudhanshu P. Singh, Suyash Srivastav
         </p>
       </footer>
 

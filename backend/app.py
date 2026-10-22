@@ -129,7 +129,7 @@ def health_check():
     return jsonify({
         "status": "online",
         "service": "Global Real Estate AI Valuation Engine",
-        "author": "Shubham Mishra & Team (MNNIT Foundation)",
+        "author": "Shubham Mishra, Siddhant Shukla & Team (UCER Prayagraj)",
         "model_loaded": model is not None,
         "dataset_rows": len(housing_df) if housing_df is not None else 0,
         "version": "2.0.0"

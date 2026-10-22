@@ -17,10 +17,10 @@
 
 <br/>
 
-> 🎓 **Summer Training Capstone Project**  
-> **Innovation & Incubation Hub • MNNIT Foundation (CSE, 2026)**  
+> 🎓 **Academic Capstone Project**  
+> **Department of Computer Science & Engineering • UCER Prayagraj (2026)**  
 > **Faculty Guide**: Mr. Subhash Chaganti  
-> **Team**: **Shubham Mishra** (Lead) • **Sudhanshu Pratap Singh** • **Suyash Srivastav** • **Siddhant Shukla**
+> **Team**: **Shubham Mishra** • **Siddhant Shukla** • **Sudhanshu Pratap Singh** • **Suyash Srivastav**
 
 ---
 
@@ -52,7 +52,7 @@ Traditional residential appraisal is broken: it relies on manual human inspectio
 | **Geographic Flexibility** | Hyper-Local Only | US Single-Market Only | **🌍 Universal Domain Adaptation (California + Global PPP Engine)** |
 | **Investment Analytics** | Manual Spreadsheet Modeling | Basic Rent Estimate | **📊 Comprehensive Cap Rate, Gross Yield & 5-Yr CAGR Forecast** |
 | **Dynamic What-If Modeling**| Impossible Without Re-appraisal | Not Supported | **🛠️ Live Slider Simulator (Bedrooms, Age Rejuvenation)** |
-| **Auditability & Reporting**| Physical Hardcopy Binder | None | **📄 Printable MNNIT Foundation Certified Appraisal PDF** |
+| **Auditability & Reporting**| Physical Hardcopy Binder | None | **📄 Printable Certified Valuation Appraisal PDF** |
 | **Dual Currency Support** | Single Local Currency | USD Only | **💱 Real-Time USD ($) & INR (₹ Crores/Lakhs) Conversion** |
 
 ---
@@ -68,7 +68,7 @@ Traditional residential appraisal is broken: it relies on manual human inspectio
 │  5-Field Quick Manual Entry   │  attribution (+Income, -Age)   │  5-Yr CAGR capital forecast   │
 ├───────────────────────────────┼────────────────────────────────┼───────────────────────────────┤
 │    🛠️ Renovation Simulator    │      📍 Spatial Comps Radar    │     📄 Official Certificate   │
-│  Live dynamic sliders for     │  K-Nearest Neighbor distance   │  MNNIT Foundation watermarked │
+│  Live dynamic sliders for     │  K-Nearest Neighbor distance   │  Automated valuation model    │
 │  bedroom & age rejuvenation   │  historical comp verification  │  printable PDF audit export   │
 └───────────────────────────────┴────────────────────────────────┴───────────────────────────────┘
 ```
@@ -105,9 +105,9 @@ Black-box ML predictions are unacceptable in commercial banking and mortgage und
 ### 6. 📍 Spatial K-Nearest Neighbor ("Comps Radar")
 * Real-time spatial query computes the Euclidean distance to historical verified transactions in the California census database, rendering the 3 most comparable neighboring properties for ground-truth validation.
 
-### 7. 📄 Audit-Ready Valuation Certificate (MNNIT Foundation Watermarked)
+### 7. 📄 Audit-Ready Valuation Certificate
 * Generates a client-side printable PDF appraisal report with:
-  * Official Innovation & Incubation Hub, MNNIT Foundation academic credentials.
+  * Department of Computer Science & Engineering, UCER Prayagraj credentials.
   * Unique, cryptographically styled Appraisal Hash (`PROPVAL-APP-XXXXX`).
   * Complete input specification, investment metrics, valuation breakdown, and signature lines.
 
@@ -125,7 +125,7 @@ Black-box ML predictions are unacceptable in commercial banking and mortgage und
 | ⚡ 1-Click Showcase Presets | 📄 Official Appraisal Certificate |
 | :---: | :---: |
 | <img src="./assets/showcase-presets.png" alt="1-Click Viva Presets" width="100%" style="border-radius: 8px;" /> | <img src="./assets/appraisal-certificate.png" alt="Printable Valuation Certificate" width="100%" style="border-radius: 8px;" /> |
-| *Silicon Valley, Malibu, Mumbai & London presets* | *Formal MNNIT-stamped appraisal document* |
+| *Silicon Valley, Malibu, Mumbai & London presets* | *Formal certified appraisal document* |
 
 <br/>
 
@@ -323,7 +323,7 @@ PropVal-AI/
 │   │       ├── ExplainabilityWaterfall.jsx # SHAP-inspired XAI factor decomposition
 │   │       ├── InvestmentRadar.jsx      # Cap Rate, Gross Yield & CAGR analytics
 │   │       ├── WhatIfSimulator.jsx      # Dynamic real-time renovation sliders
-│   │       ├── ValuationCertificate.jsx # Printable MNNIT Foundation appraisal PDF
+│   │       ├── ValuationCertificate.jsx # Printable valuation appraisal PDF
 │   │       ├── ComparableComps.jsx      # Spatial KNN nearest historical transactions
 │   │       ├── MortgageCalculator.jsx   # Loan amortization & EMI planner
 │   │       ├── ShowcasePresets.jsx      # 1-Click demonstration scenarios
@@ -415,29 +415,29 @@ npm run dev
 
 ## 👥 Team & Mentorship
 
-This project was conceived, designed, and developed during the **Summer Internship & Training Program (2026)** at the **Innovation & Incubation Hub, MNNIT Foundation**, Motilal Nehru National Institute of Technology (MNNIT) Allahabad.
+This project was conceived, designed, and developed at the **Department of Computer Science & Engineering, United College of Engineering and Research (UCER), Prayagraj (2026)**.
 
 ### 🎓 Faculty Mentorship
 * **Mr. Subhash Chaganti** — *Project Guide & Technical Mentor*  
-  *Innovation & Incubation Hub, MNNIT Foundation*
+  *UCER Prayagraj*
 
 ### 💻 Development Team
 | Team Member | Role | Core Focus Areas | Profile |
 | :--- | :--- | :--- | :---: |
-| **Shubham Mishra** | **Team Leader** | Machine Learning Architecture, XGBoost Optimization & Full-Stack Integration | [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=flat&logo=github)](https://github.com/) |
+| **Shubham Mishra** | **ML Architecture** | Machine Learning Architecture, XGBoost Optimization & Full-Stack Integration | [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=flat&logo=github)](https://github.com/) |
+| **Siddhant Shukla** | **Full-Stack Engineer** | Modern React UI/UX, Glassmorphism Design System & Appraisal Certificate | [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=flat&logo=github)](https://github.com/siddhantshukla108) |
 | **Sudhanshu Pratap Singh** | **Core Engineer** | Geospatial Geocoding, Leaflet GIS Engine & Spatial Comps Algorithm | [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=flat&logo=github)](https://github.com/) |
 | **Suyash Srivastav** | **Core Engineer** | Financial Modeling, Investment Radar & Dual Currency Parity Engine | [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=flat&logo=github)](https://github.com/) |
-| **Siddhant Shukla** | **Core Engineer** | Modern React UI/UX, Glassmorphism Design System & Appraisal Certificate | [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=flat&logo=github)](https://github.com/siddhantshukla108) |
 
 ---
 
 ## 📜 Academic Integrity & License
 
-This project is licensed under the **MIT License** for academic, research, and non-commercial portfolio demonstrations. Developed for academic credit and evaluation at the **Department of Computer Science & Engineering, Innovation & Incubation Hub, MNNIT Foundation**.
+This project is licensed under the **MIT License** for academic, research, and non-commercial portfolio demonstrations. Developed for academic credit and evaluation at the **Department of Computer Science & Engineering, UCER Prayagraj**.
 
 <div align="center">
   <br/>
   <b>⭐ If you found PropVal AI inspiring or helpful, please consider starring this repository! ⭐</b>
   <br/><br/>
-  <sub>Built with ❤️ by the PropVal AI Team • MNNIT Foundation © 2026</sub>
+  <sub>Built with ❤️ by the PropVal AI Team • UCER Prayagraj © 2026</sub>
 </div>

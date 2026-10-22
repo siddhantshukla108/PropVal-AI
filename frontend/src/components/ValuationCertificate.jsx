@@ -8,7 +8,7 @@ export default function ValuationCertificate({ isOpen, onClose, valuation, formD
     window.print();
   };
 
-  const certificateId = `MNNIT-VAL-${Math.floor(100000 + Math.random() * 900000)}`;
+  const certificateId = `PROPVAL-VAL-${Math.floor(100000 + Math.random() * 900000)}`;
   const currentDate = new Date().toLocaleDateString('en-US', {
     year: 'numeric',
     month: 'long',
@@ -27,17 +27,17 @@ export default function ValuationCertificate({ isOpen, onClose, valuation, formD
           <X className="w-5 h-5" />
         </button>
 
-        {/* Certificate Header with MNNIT Branding */}
+        {/* Certificate Header */}
         <div className="border-b-2 border-brand-500/40 pb-4 text-center space-y-1 relative">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-brand-500/10 text-brand-400 border border-brand-500/20 text-[11px] font-bold uppercase tracking-wider mb-1">
             <Award className="w-3.5 h-3.5" />
             Official Valuation Certificate
           </div>
           <h2 className="text-xl sm:text-2xl font-black tracking-tight text-white print:text-black uppercase">
-            MNNIT Innovation & Incubation Hub
+            PropVal AI Real Estate Valuation
           </h2>
           <p className="text-xs text-slate-400 print:text-gray-600">
-            Center for Machine Learning & Spatial Intelligence • CSE Department (2026)
+            Certified Residential Property Appraisal & Spatial Market Valuation
           </p>
         </div>
 
@@ -98,17 +98,16 @@ export default function ValuationCertificate({ isOpen, onClose, valuation, formD
           </div>
         </div>
 
-        {/* Official Signatures & Verification */}
-        <div className="border-t border-slate-800 print:border-gray-300 pt-4 grid grid-cols-2 gap-4 text-xs">
-          <div>
-            <span className="block text-[10px] text-slate-500 uppercase font-semibold">Faculty Guide</span>
-            <span className="font-bold text-slate-200 print:text-black">Mr. Subhash Chaganti</span>
-            <span className="block text-[10px] text-slate-400 print:text-gray-600">Innovation & Incubation Hub, MNNIT</span>
+        {/* Verification & Compliance Badge */}
+        <div className="border-t border-slate-800 print:border-gray-300 pt-4 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
+          <div className="flex items-center gap-2">
+            <ShieldCheck className="w-4 h-4 text-emerald-400 print:text-emerald-700" />
+            <span className="text-slate-300 print:text-gray-800 font-medium text-[11px]">
+              Verified by Automated Valuation Model (AVM)
+            </span>
           </div>
-          <div className="text-right">
-            <span className="block text-[10px] text-slate-500 uppercase font-semibold">Team Lead</span>
-            <span className="font-bold text-slate-200 print:text-black">Shubham Mishra</span>
-            <span className="block text-[10px] text-slate-400 print:text-gray-600">CSE Department (2026)</span>
+          <div className="text-[10px] text-slate-500 print:text-gray-500 font-mono">
+            Audit-Ready Spatial Property Appraisal
           </div>
         </div>
 

@@ -44,7 +44,7 @@ export default function Navbar({ currency, setCurrency, onOpenInfoModal }) {
               </span>
             </div>
             <p className="text-xs text-slate-400 hidden sm:block">
-              MNNIT Foundation • CSE Mini Project
+              UCER Prayagraj • CSE Mini Project
             </p>
           </div>
         </div>
